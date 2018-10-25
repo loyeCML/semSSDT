@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="d1eabf92-33f5-4f99-b5e4-f8d2b70d458b" ChangeDateTime="10/25/2018 11:13:42">
+    <Property Name="ElementName" Value="[dbo].[Table1].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Produktgrp" />
+  </Operation>
+  <Operation Name="Move Schema" Key="42cbc92b-e11e-46cf-bba2-08b015dc5cb0" ChangeDateTime="10/25/2018 12:16:27">
+    <Property Name="ElementName" Value="[prod].[vKunden]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="dbo" />
+    <Property Name="IsNewSchemaExternal" Value="True" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a59d07cb-e01b-46d8-9cae-03300ee8ed73" ChangeDateTime="10/25/2018 12:17:48">
+    <Property Name="ElementName" Value="[dbo].[Artikel].[LieferantenNr]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Artikel]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="KontaktID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f9a37973-df73-474b-8ed8-75108e705f82" ChangeDateTime="10/25/2018 13:18:04">
+    <Property Name="ElementName" Value="[dbo].[sp_SelectArtikelNachArtikelgruppen]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[spSelectArtikelNachArtikelgruppen]" />
+  </Operation>
+</Operations>
